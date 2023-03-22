@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>PassGen</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input
+        class="mini-screen"
+        type="text"
+        placeholder="Password"
+        id="password"
+      />
+      <div class="container-range">
+        <input class="range" min="5" max="15" value="12" type="range" />
+        <p>characters numbers : &nbsp;</p>
+        <div class="visualisation-range"></div>
+      </div>
+      <div class="container-checkbox">
+        <label for="symbols" class="symbols">exclude symbols :</label>
+        <input type="checkbox" name="symbols" class="symbolCase" />
+      </div>
+      <div class="container-btn">
+        <button class="generate">>Generate<</button>
+        <button class="copy">>Copy<</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
