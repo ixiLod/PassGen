@@ -1,5 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@font-face {
+  font-family: 'Inspiration';
+  src: url('./fonts/Inspiration/Inspiration-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url('./fonts/Press_Start_2P/PressStart2P-Regular.ttf');
+}
+
 *,
 ::after,
 ::before {
