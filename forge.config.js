@@ -19,4 +19,17 @@ module.exports = {
       config: {},
     },
   ],
+  publishers: [
+    {
+      name: '@electron-forge/ixiLod',
+      config: {
+        repository: {
+          owner: 'ixiLod',
+          name: 'PassGen',
+        },
+        prerelease: false,
+        draft: true,
+      },
+    },
+  ],
 };
