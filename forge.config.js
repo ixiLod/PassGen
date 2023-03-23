@@ -21,7 +21,7 @@ module.exports = {
   ],
   publishers: [
     {
-      name: '@electron-forge/ixiLod',
+      name: '@electron-forge/publisher-github',
       config: {
         repository: {
           owner: 'ixiLod',
