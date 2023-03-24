@@ -14,7 +14,7 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 350,
     height: 300,
-    icon: path.join(__dirname, '/passgenlogo.icns'),
+    icon: __dirname + './passgenlogo.icns',
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
     },
@@ -26,14 +26,6 @@ const createWindow = () => {
   // Open the DevTools.
   // mainWindow.webContents.openDevTools();
 };
-
-app.whenReady().then(() => {
-  if (process.platform === 'darwin') {
-    app.dock.setIcon(path.join(__dirname, '/passgenlogo.icns'));
-  }
-
-  createWindow();
-});
 
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.

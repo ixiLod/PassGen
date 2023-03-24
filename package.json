@@ -11,18 +11,6 @@
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\""
   },
-  "build": {
-    "appId": "com.ixilod.passgen",
-    "mac": {
-      "icon": "passgenlogo.icns"
-    },
-    "win": {
-      "icon": "passgenlogo.ico"
-    },
-    "linux": {
-      "icon": "passgenlogo.png"
-    }
-  },
   "keywords": [],
   "author": {
     "name": "ixiLod"
