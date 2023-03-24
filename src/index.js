@@ -14,7 +14,7 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 350,
     height: 300,
-    icon: path.join(__dirname, 'passgenlogo.png'),
+    icon: path.join(__dirname, 'passgenlogo.icns'),
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
     },
