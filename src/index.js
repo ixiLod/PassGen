@@ -26,6 +26,13 @@ const createWindow = () => {
   // Open the DevTools.
   // mainWindow.webContents.openDevTools();
 };
+app.whenReady().then(() => {
+  if (process.platform === 'darwin') {
+    app.dock.setIcon(path.join(__dirname, 'passgenlogo.icns'));
+  }
+
+  createWindow();
+});
 
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
