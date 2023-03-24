@@ -23,6 +23,11 @@ module.exports = {
     {
       name: '@electron-forge/publisher-github',
       config: {
+         "forge": {
+      "packagerConfig": {
+        "icon": "/passgenlogo.icns"
+      }
+    },
         repository: {
           owner: 'ixiLod',
           name: 'PassGen',
