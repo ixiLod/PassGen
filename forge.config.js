@@ -1,6 +1,6 @@
 module.exports = {
   packagerConfig: {
-    icon: './passgenlogo.icns',
+    icon: './logo/passgenlogo.icns',
   },
   rebuildConfig: {},
   makers: [
